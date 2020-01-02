@@ -1,0 +1,44 @@
+body{
+    margin: 0 ;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}   
+
+span{
+
+    color: blue;
+    opacity: 0;
+    transform: translate(0px,50px) rotate(90deg);
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 0.5s ;
+    
+
+}
+
+.anim1{
+    opacity: 1;
+    color: thistle;
+    transform: translate(0px,0px);
+}
+
+.anim2{
+    opacity: 1;
+    color: thistle;
+    transform: rotate(0deg);
+}
+.anim3{
+    opacity: 1;
+    color: thistle;
+    transform: rotate(10deg);
+    
+}
+.cuttext{
+    text-shadow: 5px 5px 5px pink;
+    color: salmon;
+}
